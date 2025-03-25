@@ -42,8 +42,9 @@ UX/UI
  
  
 !!!!!! AREAS FOR IMPROVEMENT !!!!!!
-
-Here are some potential improvements that could be made to take the project further:
+  • All the views can be used with previews (mocks data)
+  • I misread the brief slightly and confused the "Story view screen" with the feed (posts) itself. As a result, I focused on building a posts feed and didn’t invest enough time into the actual Story screen, which could be improved with gestures, animations or transitions.
+  • UserDefaults was used for local persistence because of time constraints and ease of implementation. In a production environment, it would be more appropriate to use Realm or CoreData for scalable and structured local storage.
 	•	Improve the scrolling performance by caching images that have already been loaded.
 	•	Create a dedicated mock local data source to simulate offline or persisted content more accurately.
 	•	Future enhancement: support video playback using AVKit and AVFoundation.
@@ -53,4 +54,5 @@ Here are some potential improvements that could be made to take the project furt
 	•	The layered separation follows the principles of a clean architecture (Presentation, Domain, Data, Mock).
 	•	The network service layer is in place, but currently connected to static data. It’s ready to integrate with a real backend API.
 	•	Define a design system (typography, spacing, colors, etc.) to extract reusable styles and improve UI consistency across the app. 
+  • The like action is currently handled directly by mutating the state in memory. Ideally, it should use the updatePost function from the CRUD implementation to ensure local persistence. 
  AND MORE ... 
