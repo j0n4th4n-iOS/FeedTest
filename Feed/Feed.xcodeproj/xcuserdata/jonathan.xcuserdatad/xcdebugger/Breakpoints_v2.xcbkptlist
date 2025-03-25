@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "206166C1-D2A5-42EE-9EA3-7D6CCA91720C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBEC2718-FFF1-4146-9170-21CAB4A2E0C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Domain/Sources/Domain/UseCases/FetchPostsUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "execute(page:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "785BD071-BF3C-47BB-A40C-E345AECD0CEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/Sources/RemoteFeedDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "fetchPosts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77B522BE-11DF-41DF-882F-7EB46A454CBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(endpoint:responseType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D56DBEC-05E9-4C2B-AC31-7164A63DE6DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request(endpoint:responseType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D56DBEC-05E9-4C2B-AC31-7164A63DE6DA - c13c849ac5c3c9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "9D56DBEC-05E9-4C2B-AC31-7164A63DE6DA - 17af9b92f606f89d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "9D56DBEC-05E9-4C2B-AC31-7164A63DE6DA - 1a7db44754ea169a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEAC30E8-F960-4647-9F96-E9468064F92E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "request(endpoint:responseType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FEAC30E8-F960-4647-9F96-E9468064F92E - c13c849ac5c3cdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "FEAC30E8-F960-4647-9F96-E9468064F92E - 17af9b92f606f8df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "FEAC30E8-F960-4647-9F96-E9468064F92E - 1a7db44754ea16d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Data.URLSessionNetworkClient.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Data.Endpoint, responseType: &#x3c4;_0_0.Type) async -&gt; Swift.Result&lt;&#x3c4;_0_0, Data.NetworkError&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/Network/URLSessionNetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75CD9274-0DD3-43B3-B343-A16824BE2130"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "select(story:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35E15F78-D1A9-469F-819E-4A9C10FBE923"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "loadNextStoriesPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2953936-CD3F-47E9-84EC-D59D4FE265B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "loadedView(stories:posts:selectedStory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2953936-CD3F-47E9-84EC-D59D4FE265B8 - 339f4f3f34c4ab78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #5 (Domain.Story) -&gt; Presentation.StoryDetailView in Presentation.FeedView.loadedView(stories: Swift.Array&lt;Domain.Story&gt;, posts: Swift.Array&lt;Domain.Post&gt;, selectedStory: Swift.Optional&lt;Domain.Story&gt;) -&gt; some"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109">
+               </Location>
+               <Location
+                  uuid = "F2953936-CD3F-47E9-84EC-D59D4FE265B8 - 7e8581a641d5c60e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #5 (Domain.Story) -&gt; Presentation.StoryDetailView in Presentation.FeedView.loadedView(stories: Swift.Array&lt;Domain.Story&gt;, posts: Swift.Array&lt;Domain.Post&gt;, selectedStory: Swift.Optional&lt;Domain.Story&gt;) -&gt; some"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "084CE2BC-0D9A-4202-A1BF-13D28A84C129"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "loadedView(stories:posts:selectedStory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5273CB38-52EC-4DA9-B90E-842A6E0F52AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "loadedView(stories:posts:selectedStory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50BEEFD7-9630-4661-9D6B-B6A1F8B609D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "loadedView(stories:posts:selectedStory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFAAF603-40A0-45CE-B17F-DB0D930DBCAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Presentation/Sources/Presentation/Features/Feed/FeedViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "closeStory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7C0E3B3-7510-4AE4-808D-B0931654C1C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Domain/Sources/Domain/UseCases/UpdateStoryUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "execute(story:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1E8C659-F49A-4CAE-9D13-E1D2026AEF7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetchStories(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1E8C659-F49A-4CAE-9D13-E1D2026AEF7C - 79e569786d1cff62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "E1E8C659-F49A-4CAE-9D13-E1D2026AEF7C - ff511486431504d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "E1E8C659-F49A-4CAE-9D13-E1D2026AEF7C - aaae1c97fb913a64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "E1E8C659-F49A-4CAE-9D13-E1D2026AEF7C - cccb95bfb153d8e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E7EE6F3-448A-426E-AA72-1571CAE9304C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchStories(page:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E7EE6F3-448A-426E-AA72-1571CAE9304C - aaae1c97fb91395e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+               <Location
+                  uuid = "2E7EE6F3-448A-426E-AA72-1571CAE9304C - aaae1c97fb91395e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+               <Location
+                  uuid = "2E7EE6F3-448A-426E-AA72-1571CAE9304C - ac4b8ebfd5c405cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Domain.Story) -&gt; Swift.Bool in Data.FeedRepositoryImpl.fetchStories(page: Swift.Int) async throws -&gt; Swift.Array&lt;Domain.Story&gt;"
+                  moduleName = "Feed.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathan/Documents/iOS/Tests%20techniques/Feed/Feed/Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A54DA304-99DC-4913-8188-4CA616A911A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/Data/Sources/Data/FeedRepositoryImpl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "fetchStories(page:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
